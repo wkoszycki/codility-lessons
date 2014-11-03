@@ -3,7 +3,7 @@ package com.codility.lessons.lesson2;
 import java.util.Arrays;
 
 /**
- * 100/100
+ * 100/100 level: Medium
  *
  * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
  */

@@ -27,7 +27,6 @@ public class FrogRiverOneTest {
     @Test
     public void testMediumArray() {
         int[] input = {1, 3, 1, 4, 2, 3, 2, 4, 1, 3, 2, 1, 4, 1, 3, 2, 4, 1, 5, 3};
-        System.out.println("result lenght= " + input.length);
         int result = solution.solution(5, input);
         assertEquals(18, result);
     }

@@ -74,20 +74,5 @@ public class PermMissingelementTest {
         int result = solution.solution(arithmeticSequence);
         assertEquals(10001, result);
     }
-//    @Test
-//    public void testHugeValues() {
-//        int[] arithmeticSequence = new int[99999];
-//
-//        for (int i = 0; i < 99999; i++) {
-//            if (i == 10001) {
-//                continue;
-//            }
-//            arithmeticSequence[i] = i;
-//        }
-//        705082704
-//        4999840000
-//        int result = solution.solution(arithmeticSequence);
-//        assertEquals(10001, result);
-//    }
 
 }

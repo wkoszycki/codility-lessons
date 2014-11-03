@@ -1,7 +1,7 @@
 package com.codility.lessons.lesson2;
 
 /**
- * 100/100
+ * 100/100 level: Easy
  *
  * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
  */
