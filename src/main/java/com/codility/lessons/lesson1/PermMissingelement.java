@@ -13,11 +13,15 @@ package com.codility.lessons.lesson1;
 public class PermMissingelement {
 
     public int solution(int[] A) {
+        // get numbers of elements
         int numberOfElements = A.length;
+        //check wheter is empty
         if (numberOfElements == 0) {
             return 1;
         }
+        //count expected sum of sequence
         long sumOfproperArithmeticSequence = countSumArithmeticSequence(numberOfElements + 1, 1, numberOfElements + 1);
+        //count current sum
         long sumOfcurrentSequence = countSumOfArray(A);
         long result = sumOfproperArithmeticSequence - sumOfcurrentSequence;
         return (int) result;
