@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * level: easy
  */
-public class MaxProductOfThree {
+class MaxProductOfThree {
 
   public int solution(int[] A) {
     int length = A.length;

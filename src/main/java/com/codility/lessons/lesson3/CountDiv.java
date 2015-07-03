@@ -3,7 +3,7 @@ package com.codility.lessons.lesson3;
 /**
  * level: Medium
  */
-public class CountDiv {
+class CountDiv {
 
   public int solution(int A, int B, int K) {
     //6, B = 11 and K = 2

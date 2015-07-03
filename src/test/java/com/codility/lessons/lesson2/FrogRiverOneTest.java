@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
- */
 public class FrogRiverOneTest {
 
   private FrogRiverOne solution;

@@ -10,22 +10,15 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author Wojciech Koszycki
- */
 public class TriangleTest {
 
-  Triangle triangle;
-  int[] input;
+  private Triangle triangle;
+  private int[] input;
 
   @Before
   public void setUp() {
     triangle = new Triangle();
   }
-//A[P] + A[Q] > A[R],
-//A[Q] + A[R] > A[P],
-//A[R] + A[P] > A[Q].
-//0,2,4
 
   @Test
   public void tesPositiveCase() {

@@ -8,19 +8,17 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
- */
-public class PermMissingelementTest {
 
-  PermMissingelement solution;
+public class PermMissingElementTest {
 
-  public PermMissingelementTest() {
+  private PermMissingElement solution;
+
+  public PermMissingElementTest() {
   }
 
   @Before
   public void setUp() {
-    solution = new PermMissingelement();
+    solution = new PermMissingElement();
   }
 
   @Test

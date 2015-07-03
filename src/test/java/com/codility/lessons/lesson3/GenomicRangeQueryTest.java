@@ -4,12 +4,9 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-/**
- * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
- */
 public class GenomicRangeQueryTest {
 
-  GenomicRangeQuery query;
+  private GenomicRangeQuery query;
 
   @Before
   public void setUp() {
@@ -25,7 +22,7 @@ public class GenomicRangeQueryTest {
     Assert.assertArrayEquals("Arrays are not equal", new int[]{2, 4, 1}, result);
   }
 
-  //@Test
+  @Test
   public void testOneChar() {
     int[] p = new int[]{0};
     int[] q = new int[]{0};

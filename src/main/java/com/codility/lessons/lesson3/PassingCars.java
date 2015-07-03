@@ -3,7 +3,7 @@ package com.codility.lessons.lesson3;
 /**
  * 100/100 level: Easy
  */
-public class PassingCars {
+class PassingCars {
 
   public int solution(int[] A) {
     int firstCar = A[0];
@@ -16,7 +16,7 @@ public class PassingCars {
     }
     for (int i = 1; i < A.length; i++) {
       if (A[i] != firstCar) {
-        totalPassedCars += differentCarsPassed * 1;
+        totalPassedCars += differentCarsPassed;
       } else {
         differentCarsPassed++;
       }

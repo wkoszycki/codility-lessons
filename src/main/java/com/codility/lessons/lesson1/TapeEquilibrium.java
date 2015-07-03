@@ -3,7 +3,7 @@ package com.codility.lessons.lesson1;
 /**
  * 100/100 level: Easy
  */
-public class TapeEquilibrum {
+class TapeEquilibrium {
 
   public int solution(int[] A) {
     int totalSum = countSum(A);
@@ -26,8 +26,8 @@ public class TapeEquilibrum {
 
   private int countSum(int[] array) {
     int sum = 0;
-    for (int i = 0; i < array.length; i++) {
-      sum += array[i];
+    for (int anArray : array) {
+      sum += anArray;
     }
     return sum;
   }

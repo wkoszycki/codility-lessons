@@ -5,9 +5,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
- */
 public class PassingCarsTest {
 
   private PassingCars passingCars;
@@ -48,9 +45,9 @@ public class PassingCarsTest {
     assertEquals(1, passingCars.solution(cars));
   }
 
-//    @Test
-//    public void testValidMediumArray() {
-//        cars = new int[]{0, 1, 0, 1, 1, 1, 0, 1, 1};
-//        assertEquals(10, passingCars.solution(cars));
-//    }
+  @Test
+  public void testValidMediumArray() {
+    cars = new int[]{0, 1, 0, 1, 1, 1, 0, 1, 1};
+    assertEquals(13, passingCars.solution(cars));
+  }
 }

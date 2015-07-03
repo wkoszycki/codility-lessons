@@ -6,7 +6,7 @@ package com.codility.lessons.lesson1;
  * *(firstElement+lastElement) /2 calc sum of all elements in current table in for loop
  * sumOfallProper-sumOfallInvalid=result e.g {1,3} 6-4=2 , {1,2,3,5} 15-11=4 level: Easy
  */
-public class PermMissingelement {
+class PermMissingElement {
 
   public int solution(int[] A) {
     // get numbers of elements

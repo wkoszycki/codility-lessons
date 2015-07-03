@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Level: easy
  */
-public class Triangle {
+class Triangle {
 
   public int solution(int[] A) {
     //sanity check ( can't build Triangle by two edges :-) )

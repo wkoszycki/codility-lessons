@@ -6,7 +6,7 @@ package com.codility.lessons.lesson2;
  * result array otherwise increase given value. Since filling huge array worst-case: 100 000
  * elements with 100 000 times gives us complexity O(N*M) that means performance is an issue.
  */
-public class MaxCounters {
+class MaxCounters {
 
   public int[] solution(int N, int[] A) {
     // max counter initially 0

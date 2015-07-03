@@ -5,12 +5,9 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
- */
 public class FrogJmpTest {
 
-  FrogJmp solution;
+  private FrogJmp solution;
 
   public FrogJmpTest() {
   }

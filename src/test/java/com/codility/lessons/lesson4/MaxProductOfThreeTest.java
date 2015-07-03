@@ -10,13 +10,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author Wojciech Koszycki
- */
 public class MaxProductOfThreeTest {
 
-  MaxProductOfThree instance;
-  int[] input;
+  private MaxProductOfThree instance;
+  private int[] input;
 
   @Before
   public void setUp() {

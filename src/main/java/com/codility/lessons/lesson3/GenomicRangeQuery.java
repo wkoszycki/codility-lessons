@@ -1,11 +1,11 @@
 package com.codility.lessons.lesson3;
 
 /**
- * level: Medium, score: 100/100, Point is that we need to know which letter occured in asked
- * sequence, we can prepare a a double table to store information about number of occurences, then
- * we can use our prefixSUm Ninja knowledge to ask about occurence of specific element
+ * level: Medium, score: 100/100, Point is that we need to know which letter occurred in asked
+ * sequence, we can prepare a a double table to store information about number of occurrences, then
+ * we can use our prefixSUm Ninja knowledge to ask about occurrence of specific element
  */
-public class GenomicRangeQuery {
+class GenomicRangeQuery {
 
   public int[] solution(String S, int[] P, int[] Q) {
     final int[][] prefixOccurenceSums = createPrefixSumOfOccurence(S);
@@ -22,7 +22,7 @@ public class GenomicRangeQuery {
     final int lenght = s.length();
     // prefix sum should always be one element larger
     final int[][] prefixOccurenceSums = new int[4][lenght + 1];
-    //itterate over string
+    //iterate over string
     char[] chars = s.toCharArray();
     for (int i = 0; i < chars.length; i++) {
       //set next element of all sums to last element

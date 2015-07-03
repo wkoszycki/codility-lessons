@@ -9,7 +9,7 @@ package com.codility.lessons.lesson3;
  * avg_two_element_slice OR avg_three_element_slice e.g 4,2,3,1: [4+2+3+1=10/4=2.5]>[3+1=4/2=2] ||
  * [2+3+1=6/3=2]
  */
-public class MinAvgTwoSlice {
+class MinAvgTwoSlice {
 
   public int solution(int[] A) {
     int arraySize = A.length;

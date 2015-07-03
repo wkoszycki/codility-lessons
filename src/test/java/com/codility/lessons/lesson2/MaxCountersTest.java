@@ -7,9 +7,6 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertTrue;
 
-/**
- * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
- */
 public class MaxCountersTest {
 
   private MaxCounters maxCounters;

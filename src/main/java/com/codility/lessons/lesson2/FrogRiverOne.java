@@ -6,7 +6,7 @@ package com.codility.lessons.lesson2;
  * somewhere, boolean array seems to be the faster way since I don't need to fill it just happen
  * automatically while creating new array.
  */
-public class FrogRiverOne {
+class FrogRiverOne {
 
   public int solution(int X, int[] A) {
     int counter = 0;
@@ -31,7 +31,7 @@ public class FrogRiverOne {
     return -1;
   }
 
-  public boolean[] createElementsArray(int size) {
+  boolean[] createElementsArray(int size) {
     return new boolean[size];
   }
 }

@@ -5,19 +5,16 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * @author Wojciech Koszycki <wojciech.koszycki@gmail.com>
- */
-public class TapeEquilibrumTest {
+public class TapeEquilibriumTest {
 
-  TapeEquilibrum solution;
+  private TapeEquilibrium solution;
 
-  public TapeEquilibrumTest() {
+  public TapeEquilibriumTest() {
   }
 
   @Before
   public void setUp() {
-    solution = new TapeEquilibrum();
+    solution = new TapeEquilibrium();
   }
 
   @Test
